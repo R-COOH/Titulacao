@@ -7,14 +7,14 @@ void acidom(){
 	vector<long double> porpotion;
 	porpotion.push_back(0);
 	porpotion.push_back(0);
-	cout<< "entre a porporção estequimetrica de acido base, primeiro base depois acido."<< endl;
+	cout<< "entre a porporÃ§Ã£o estequimetrica de acido base, primeiro base depois acido."<< endl;
 	cout<< "base: ";
 	cin >> porpotion.at(0);
 	cout << endl;
 	cout<<"acido: ";
 	cin >> porpotion.at(1);
 	cout << endl;
-	cout<< "Qual a concentração da solução de base?(forneça em decimal)"<<endl;
+	cout<< "Qual a concentraÃ§Ã£o da soluÃ§Ã£o de base?(forneÃ§a em decimal)"<<endl;
 	long double ConcentrationB = 0;
 	cin >> ConcentrationB;
 	cout<<"Qual o volume de acido utilizado em litros? (lembre-se acitamos apenas decimal e 1L = 1000ml.)"<< endl;
@@ -25,10 +25,10 @@ void acidom(){
 	cin >> VolumeB;
 	cout<< endl <<"-------------------------------------------------------------------"<<endl;
 	cout<<ConcentrationB<<" mol/l de base" <<endl;
-	cout<<VolumeB<< " L foram utilizados de base na titulação"<<endl<<endl;
-	cout<<VolumeA<< " L de acido foram neutralizados na titulação"<< endl<<endl;
+	cout<<VolumeB<< " L foram utilizados de base na titulaÃ§Ã£o"<<endl<<endl;
+	cout<<VolumeA<< " L de acido foram neutralizados na titulaÃ§Ã£o"<< endl<<endl;
 	cout<< "------------------------------------------------------------------------"<<endl<<endl;
-	cout<<endl << "a concentração de acido em mols é de: " << (ConcentrationB * (porpotion.at(0)/porpotion.at(1))* VolumeB)/VolumeA <<" mol/litro de acido."<<endl<<endl<<"-------------------------------"<<endl;
+	cout<<endl << "a concentraÃ§Ã£o de acido em mols Ã© de: " << (ConcentrationB * (porpotion.at(0)/porpotion.at(1))* VolumeB)/VolumeA <<" mol/litro de acido."<<endl<<endl<<"-------------------------------"<<endl;
 }
 
 	
@@ -37,7 +37,7 @@ void acidog(){
 	vector<long double> porpotion;
 	porpotion.push_back(0);
 	porpotion.push_back(0);
-	cout<< "entre a porporção estequimetrica de acido base, primeiro base depois acido."<< endl;
+	cout<< "entre a porporÃ§Ã£o estequimetrica de acido base, primeiro base depois acido."<< endl;
 	cout<< "base: ";
 	cin >> porpotion.at(0);
 	cout << endl;
@@ -47,7 +47,7 @@ void acidog(){
 	cout << "qual a massa molar do acido? (g/mol em decimal)"<<endl;
 	double Massa_molar = 0;
 	cin >> Massa_molar;
-	cout<< "Qual a concentração da solução de base?(forneça em decimal)"<<endl;
+	cout<< "Qual a concentraÃ§Ã£o da soluÃ§Ã£o de base?(forneÃ§a em decimal)"<<endl;
 	long double ConcentrationB = 0;
 	cin >> ConcentrationB;
 	cout<<endl<<"Qual o volume de acido utilizado em litros? (lembre-se acitamos apenas decimal e 1L = 1000ml.)"<< endl;
@@ -58,11 +58,11 @@ void acidog(){
 	cin >> VolumeB;
 	cout<< endl <<"-------------------------------------------------------------------"<<endl;
 	cout<<ConcentrationB<<" mol/l de base" <<endl;
-	cout<<Massa_molar<<" é a massa molar do acido.";
-	cout<<VolumeB<< " L foram utilizados de base na titulação"<<endl<<endl;
-	cout<<VolumeA<< " L de acido foram neutralizados na titulação"<< endl<<endl;
+	cout<<Massa_molar<<" Ã© a massa molar do acido.";
+	cout<<VolumeB<< " L foram utilizados de base na titulaÃ§Ã£o"<<endl<<endl;
+	cout<<VolumeA<< " L de acido foram neutralizados na titulaÃ§Ã£o"<< endl<<endl;
 	cout<< "------------------------------------------------------------------------"<<endl<<endl;
-	cout<<endl << "A concentração de acido em mols é de: " << (ConcentrationB * (porpotion.at(0)/porpotion.at(1))* VolumeB)*Massa_molar/VolumeA <<" gramas/litro de acido."<<endl<<endl<<"-------------------------------"<<endl;
+	cout<<endl << "A concentraÃ§Ã£o de acido em mols Ã© de: " << (ConcentrationB * (porpotion.at(0)/porpotion.at(1))* VolumeB)*Massa_molar/VolumeA <<" gramas/litro de acido."<<endl<<endl<<"-------------------------------"<<endl;
 }
 
 	
@@ -71,7 +71,7 @@ void basem(){
 		vector<long double> porpotion;
 	porpotion.push_back(0);
 	porpotion.push_back(0);
-	cout<< "entre a porporção estequimetrica de acido base, primeiro acido depois base."<< endl;
+	cout<< "entre a porporÃ§Ã£o estequimetrica de acido base, primeiro acido depois base."<< endl;
 	cout<< "acido: ";
 	cin >> porpotion.at(0);
 	cout << endl;
@@ -81,7 +81,7 @@ void basem(){
 		cout << "qual a massa molar do acido? (g/mol em decimal)"<<endl;
 	double Massa_molar = 0;
 	cin>> Massa_molar;
-	cout<< "Qual a concentração da solução de acido?(forneça em decimal)"<<endl;
+	cout<< "Qual a concentraÃ§Ã£o da soluÃ§Ã£o de acido?(forneÃ§a em decimal)"<<endl;
 	long double ConcentrationA = 0;
 	cin >> ConcentrationA;
 	cout<<"Qual o volume de base utilizado em litros? (lembre-se acitamos apenas decimal e 1L = 1000ml.)"<< endl;
@@ -92,10 +92,10 @@ void basem(){
 	cin >> VolumeA;
 	cout<< endl <<"-------------------------------------------------------------------"<<endl;
 	cout<<ConcentrationA<<" mol/l de base" <<endl;
-	cout<<VolumeA<< " L foram utilizados de acido na titulação"<<endl<<endl;
-	cout<<VolumeB<< " L de base foram neutralizados na titulação"<< endl<<endl;
+	cout<<VolumeA<< " L foram utilizados de acido na titulaÃ§Ã£o"<<endl<<endl;
+	cout<<VolumeB<< " L de base foram neutralizados na titulaÃ§Ã£o"<< endl<<endl;
 	cout<< "------------------------------------------------------------------------"<<endl<<endl;
-	cout<<endl << "a concentração de base em mols é de: " << (ConcentrationA * (porpotion.at(0)/porpotion.at(1))* VolumeA)*Massa_molar/VolumeB <<" gramas/litro de base."<<endl<<endl<<"-------------------------------"<<endl;
+	cout<<endl << "a concentraÃ§Ã£o de base em mols Ã© de: " << (ConcentrationA * (porpotion.at(0)/porpotion.at(1))* VolumeA)*Massa_molar/VolumeB <<" gramas/litro de base."<<endl<<endl<<"-------------------------------"<<endl;
 }
 
 
@@ -105,14 +105,14 @@ void baseg()
 			vector<long double> porpotion;
 	porpotion.push_back(0);
 	porpotion.push_back(0);
-	cout<< "entre a porporção estequimetrica de acido base, primeiro acido depois base."<< endl;
+	cout<< "entre a porporÃ§Ã£o estequimetrica de acido base, primeiro acido depois base."<< endl;
 	cout<< "acido: ";
 	cin >> porpotion.at(0);
 	cout << endl;
 	cout<<"base: ";
 	cin >> porpotion.at(1);
 	cout << endl;
-	cout<< "Qual a concentração da solução de acido?(forneça em decimal)"<<endl;
+	cout<< "Qual a concentraÃ§Ã£o da soluÃ§Ã£o de acido?(forneÃ§a em decimal)"<<endl;
 	long double ConcentrationA = 0;
 	cin >> ConcentrationA;
 	cout<<"Qual o volume de base utilizado em litros? (lembre-se acitamos apenas decimal e 1L = 1000ml.)"<< endl;
@@ -126,7 +126,7 @@ void baseg()
 	cout<<VolumeA<< " L foram utilizados de acido na titulacao"<<endl<<endl;
 	cout<<VolumeB<< " L de base foram neutralizados na titulacao"<< endl<<endl;
 	cout<< "------------------------------------------------------------------------"<<endl<<endl;
-	cout<<endl << "a concentracao de base em gramas é de: " << (ConcentrationA * (porpotion.at(0)/porpotion.at(1))* VolumeA)/VolumeB <<" mol/litro de base."<<endl<<endl<<"-------------------------------"<<endl;
+	cout<<endl << "a concentracao de base em gramas Ã© de: " << (ConcentrationA * (porpotion.at(0)/porpotion.at(1))* VolumeA)/VolumeB <<" mol/litro de base."<<endl<<endl<<"-------------------------------"<<endl;
 }
 
 
@@ -134,14 +134,14 @@ void baseg()
 int main()
 {
 	int operacao =0;
-	cout << "bem vindo ao sistema de calculo automatico de titulação, trabalhamos com decimais use ponto ao inves de virgula em nossas opcoes."<<endl;
+	cout << "bem vindo ao sistema de calculo automatico de titulaÃ§Ã£o, trabalhamos com decimais use ponto ao inves de virgula em nossas opcoes."<<endl;
 	do{
 		cout<< endl << "------------------------------------" <<endl <<endl;
 			cout<<"escolha uma das opcoes"<<endl;
-	cout << "1: obter concentração inicial do acido em mols por litro" << endl;
-	cout << "2: obter concentração inicial do acido em gramas por litro"<< endl;
-	cout << "3: obter concentração inicial da base em mols por litro" << endl;
-	cout << "4: obter concentração inicial da base em gramas por litro"<< endl;
+	cout << "1: obter concentraÃ§Ã£o inicial do acido em mols por litro" << endl;
+	cout << "2: obter concentraÃ§Ã£o inicial do acido em gramas por litro"<< endl;
+	cout << "3: obter concentraÃ§Ã£o inicial da base em mols por litro" << endl;
+	cout << "4: obter concentraÃ§Ã£o inicial da base em gramas por litro"<< endl;
 	cout << "0: para sair"<< endl;
 	cout<< "                    "<< endl;
 	cin >> operacao;
@@ -159,7 +159,7 @@ int main()
 	}
 	}while(operacao != 0);
 	cout <<"------------------------------";
-	cout<<endl<<"agradecemos o uso desse programa, mande ao desenvolvedor sugestoes de melhora caso queira no discord: kouhai #1849 ele sempre está aberto a DMs."<<endl;
+	cout<<endl<<"agradecemos o uso desse programa, mande ao desenvolvedor sugestoes de melhora caso queira no discord: carboxilato #9629 ele sempre estÃ¡ aberto a DMs."<<endl;
 	cout<<"e desculpas por erro, ainda estou aprendendo a programar."<<endl;
 	cout<<"--------------------------------------------------------------------:)-------------------------------"<<endl<<endl;
 	return 0;
